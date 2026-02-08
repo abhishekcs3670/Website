@@ -14,15 +14,15 @@ body {
 
 .container {
   background: #ffb6c1;
-  width: 380px;
-  padding: 30px;
+  width: 800px;
+  padding: 60px;
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 .container img {
-  width: 140px;
+  width: 240px;
   display: block;
   margin: 0 auto 15px;
   border-radius: 15px;
@@ -30,15 +30,15 @@ body {
 
 .container2 {
   background: #ffb6c1;
-  width: 380px;
-  padding: 30px;
+  width: 800px;
+  padding: 80px;
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 .container2 img {
-  width: 140px;
+  width: 240px;
   display: block;
   margin: 0 auto 15px;
   border-radius: 15px;
@@ -46,15 +46,15 @@ body {
 
 .container3 {
   background: #ffb6c1;
-  width: 380px;
-  padding: 30px;
+  width: 800px;
+  padding: 80px;
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 .container3 img {
-  width: 140px;
+  width: 240px;
   display: block;
   margin: 0 auto 15px;
   border-radius: 15px;
@@ -75,16 +75,16 @@ p {
 }
 
 button {
-  padding: 12px 28px;
+  padding: 18px 36px;
   border: none;
   border-radius: 30px;
   font-size: 16px;
   cursor: pointer;
-  margin: 10px;
+  margin: 30px;
 }
 
 #yesBtn {
-  margin-left: -28%;
+  margin-left: -20%;
   background: red;
   color: white;
 }
@@ -117,11 +117,8 @@ button {
 }
 
 #title {
-    font-size: 22px; /* adjust value as needed */
-}
-
-#title {
-  font-size: 22px;
+  margin-top: 10%;
+  font-size: 35px;
   font-weight: 700;
   color: #900734;
   letter-spacing: 0.5px;
@@ -129,21 +126,34 @@ button {
 }
 
 #subtitle {
-  font-size: 13px;
+  font-size: 19px;
   color: #5a2a2a;
   line-height: 1.5;
   font-weight: 500;
 }
 
 #subtitle3 {
-  font-size: 13px;
+  font-size: 20px;
   color: #5a2a2a;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 800;
+}
+
+#subtitle4 {
+  margin-left: 5%;
+  margin-bottom: 0%;
+  font-size: 15px;
+  color: #5a2a2a;
+  line-height: 1.5;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px rgba(217, 169, 169, 0.6);
+  transition: 0.5s;
 }
 
 #subtitle2 {
-  font-size: 13px;
+  margin-left: 0%;
+  margin-bottom: 0%;
+  font-size: 15px;
   color: #5a2a2a;
   line-height: 1.5;
   font-weight: 700;
@@ -156,29 +166,7 @@ button {
   color: white;
 }
 
-#subtitle4 {
-  font-size: 13px;
-  color: #5a2a2a;
-  line-height: 1.5;
-  font-weight: 700;
-  text-shadow: 1px 1px 3px rgba(217, 169, 169, 0.6);
-  transition: 0.5s;
-}
-
-#subtitle4:hover {
-  background: rgb(164, 10, 10);
-  color: white;
-}
-
 #title2 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #900734;
-  letter-spacing: 0.5px;
-  text-shadow: 1px 1px 3px rgba(217, 169, 169, 0.6);
-}
-
-#title6 {
   font-size: 18px;
   font-weight: 700;
   color: #900734;
@@ -192,7 +180,7 @@ button {
 
 .gift {
   display: block;
-  margin: 12px auto;
+  margin: 20px auto;
   width: 160px;
   padding: 10px;
   border-radius: 15px;
@@ -226,4 +214,46 @@ button {
 .home-btn:hover {
   background: darkred;
   transform: translateX(-50%) scale(1.05);
+}
+
+#title2 {
+  margin-top: -5%;
+  margin-bottom: 10%;
+  font-size: 30px;
+  font-weight: 700;
+  align-items: center;
+  color: #900734;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 3px rgba(217, 169, 169, 0.6);
+}
+
+#title3 {
+  margin-top: 8%;
+  margin-bottom: -20%;
+}
+
+#title4 {
+  margin-top: -5%;
+  margin-bottom: 15%;
+}
+
+#title5 {
+  margin-top: 10%;
+  margin-bottom: -40%;
+}
+
+#title6 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 30px;
+  font-weight: 700;
+  align-items: center;
+  color: #900734;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 3px rgba(217, 169, 169, 0.6);
+}
+
+#title7 {
+  margin-top: 12%;
+  margin-bottom: 0%;
 }
