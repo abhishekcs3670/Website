@@ -133,10 +133,10 @@ button {
 }
 
 #subtitle3 {
-  font-size: 15px;
+  font-size: 20px;
   color: #5a2a2a;
   line-height: 1.5;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 #subtitle2 {
@@ -222,7 +222,7 @@ button {
 
 #title4 {
   margin-top: -5%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 #title5 {
