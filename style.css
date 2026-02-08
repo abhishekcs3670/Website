@@ -14,8 +14,8 @@ body {
 
 .container {
   background: #ffb6c1;
-  width: 800px;
-  padding: 60px;
+  width: 580px;
+  padding: 20px;
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
@@ -30,8 +30,8 @@ body {
 
 .container2 {
   background: #ffb6c1;
-  width: 800px;
-  padding: 80px;
+  width: 580px;
+  padding: 40px;
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
@@ -46,8 +46,8 @@ body {
 
 .container3 {
   background: #ffb6c1;
-  width: 800px;
-  padding: 80px;
+  width: 580px;
+  padding: 40px;
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
@@ -84,7 +84,7 @@ button {
 }
 
 #yesBtn {
-  margin-left: -20%;
+  margin-left: -23%;
   background: red;
   color: white;
 }
@@ -118,7 +118,7 @@ button {
 
 #title {
   margin-top: 10%;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   color: #900734;
   letter-spacing: 0.5px;
@@ -126,7 +126,7 @@ button {
 }
 
 #subtitle {
-  font-size: 19px;
+  font-size: 15px;
   color: #5a2a2a;
   line-height: 1.5;
   font-weight: 500;
