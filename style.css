@@ -150,6 +150,11 @@ button {
   transition: 0.5s;
 }
 
+#subtitle4:hover {
+  background: rgb(164, 10, 10);
+  color: white;
+}
+
 #subtitle2 {
   margin-left: 0%;
   margin-bottom: 0%;
