@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: #ffe6ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #ffb6c1;
+  width: 580px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.container img {
+  width: 240px;
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 15px;
+}
+
+.container2 {
+  background: #ffb6c1;
+  width: 580px;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.container2 img {
+  width: 240px;
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 15px;
+}
+
+.container3 {
+  background: #ffb6c1;
+  width: 580px;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.container3 img {
+  width: 240px;
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 15px;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+p {
+  font-size: 14px;
+  color: #444;
+}
+
+.buttons {
+  margin-top: 20px;
+  position: relative;
+}
+
+button {
+  padding: 18px 36px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 30px;
+}
+
+#yesBtn {
+  margin-left: -28%;
+  background: red;
+  color: white;
+}
+
+#noBtn {
+  background: royalblue;
+  color: white;
+  position: absolute;
+}
+
+.img-box {
+  display: inline-block;
+  padding: 18px;
+  border-radius: 18px;
+  /* highlight effect */
+  background: rgba(238, 184, 184, 0.25);
+  /* soft border highlight */
+  box-shadow: 0 0 8px rgba(157, 137, 137, 0.4);
+  padding-bottom: -10px;
+}
+
+.img-box2 {
+  display: inline-block;
+  padding: 18px 18px 0px;
+  border-radius: 18px;
+  /* highlight effect */
+  background: rgba(238, 184, 184, 0.25);
+  /* soft border highlight */
+  box-shadow: 0 0 8px rgba(157, 137, 137, 0.4);
+}
+
+#title {
+  margin-top: 10%;
+  font-size: 30px;
+  font-weight: 700;
+  color: #900734;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 3px rgba(217, 169, 169, 0.6);
+}
+
+#subtitle {
+  font-size: 15px;
+  color: #5a2a2a;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+#subtitle3 {
+  font-size: 15px;
+  color: #5a2a2a;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+#subtitle2 {
+  margin-bottom: 0%;
+  font-size: 15px;
+  color: #5a2a2a;
+  line-height: 1.5;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px rgba(217, 169, 169, 0.6);
+  transition: 0.5s;
+}
+
+#subtitle2:hover {
+  background: rgb(164, 10, 10);
+  color: white;
+}
+
+#title2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #900734;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 3px rgba(217, 169, 169, 0.6);
+}
+
+.gifts {
+  margin: 20px 0;
+}
+
+.gift {
+  display: block;
+  margin: 20px auto;
+  width: 160px;
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #900734;
+  background: #ffe6ee;
+  transition: 0.5s;
+}
+
+.gift:hover {
+  background: rgb(164, 10, 10);
+  color: white;
+}
+
+.home-btn {
+  position: fixed;
+  bottom: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: red;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: transform 0.5s ease, background 0.5s ease;
+}
+
+.home-btn:hover {
+  background: darkred;
+  transform: translateX(-50%) scale(1.05);
+}
+
+#title2 {
+  margin-top: -5%;
+  margin-bottom: 10%;
+  font-size: 30px;
+  font-weight: 700;
+  align-items: center;
+  color: #900734;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 3px rgba(217, 169, 169, 0.6);
+}
+
+#title3 {
+  margin-top: 8%;
+  margin-bottom: -20%;
+}
+
+#title4 {
+  margin-top: -5%;
+  margin-bottom: 10%;
+}
+
+#title5 {
+  margin-top: 10%;
+  margin-bottom: -40%;
+}
+
+#title6 {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  font-size: 30px;
+  font-weight: 700;
+  align-items: center;
+  color: #900734;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 3px rgba(217, 169, 169, 0.6);
+}
+
+#title7 {
+  margin-top: 12%;
+  margin-bottom: 0%;
+}
