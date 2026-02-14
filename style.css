@@ -232,9 +232,23 @@ button {
   text-shadow: 1px 1px 3px rgba(217, 169, 169, 0.6);
 }
 
+
 #title3 {
   margin-top: 8%;
   margin-bottom: -20%;
+  background: red;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#title3:hover  {
+  background: darkred;
+  transform: scale(1.05);
 }
 
 #title4 {
@@ -245,6 +259,19 @@ button {
 #title5 {
   margin-top: 10%;
   margin-bottom: -40%;
+  background: red;
+  color: white;
+  padding: 14px 40px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#title5:hover  {
+  background: darkred;
+  transform: scale(1.05);
 }
 
 #title6 {
@@ -261,4 +288,123 @@ button {
 #title7 {
   margin-top: 12%;
   margin-bottom: 0%;
+  background: red;
+  color: white;
+  padding: 16px 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#title7:hover  {
+  background: darkred;
+  transform: scale(1.05);
+}
+
+#title8 {
+  background: red;
+  color: white;
+  padding: 14px 40px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#title8:hover  {
+  background: darkred;
+  transform: scale(1.05);
+}
+
+/* count PAGE */
+
+.count-body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Background Video */
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.65);
+}
+
+/* Overlay Content */
+.count-overlay {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4); /* dark overlay */
+  color: white;
+  text-align: center;
+}
+
+
+.count-title {
+  font-size: 42px;
+  text-shadow: 0 0 20px rgba(255,0,120,0.8);
+  margin-bottom: 40px;
+}
+
+.count-timer {
+  display: inline-block;
+  padding: 40px 70px;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.55);
+  box-shadow: 0 0 35px rgba(255,0,120,0.6);
+  margin-bottom: 40px;
+}
+
+#days {
+  font-size: 34px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 0 0 12px rgba(255, 120, 170, 0.8);
+}
+
+#time {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  transition: opacity 0.3s ease;
+  text-shadow: 0 0 15px rgba(255, 100, 160, 0.9);
+}
+
+.count-video video {
+  width: 420px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255,0,120,0.8);
+  margin-bottom: 40px;
+}
+
+.count-home-btn {
+  background: crimson;
+  color: white;
+  padding: 14px 40px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.count-home-btn:hover {
+  background: darkred;
+  transform: scale(1.05);
 }

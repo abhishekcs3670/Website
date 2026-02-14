@@ -42,7 +42,7 @@ function showValentinePage() {
     </p>
 
     <a href="gifts.html">
-      <button style="background:red;color:white;">
+      <button id="title8">
         See My Gifts →
       </button>
     </a>
