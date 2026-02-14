@@ -32,7 +32,7 @@ function updateTimer() {
     timeElement.style.opacity = 0;
 
     setTimeout(() => {
-        daysElement.innerHTML = `${days} Days Waiting 💕`;
+        daysElement.innerHTML = `It's been ${days} days💕`;
 
         timeElement.innerHTML =
             `${hours.toString().padStart(2,'0')} : ` +
